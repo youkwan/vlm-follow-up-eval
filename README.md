@@ -7,7 +7,7 @@ A LLM-as-a-Judge system that evaluates pairwise comparisons between multiple VLM
 1. **Clone the repository**:
 
     ```bash
-    git clone <repository-url>
+    git clone https://github.com/youkwan/vlm-follow-up-eval.git
     cd vlm-follow-up-eval
     ```
 
