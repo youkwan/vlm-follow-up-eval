@@ -86,18 +86,12 @@ After execution, the specified report directory (default: `report/`) will contai
 
 ## Examples
 
-**Input Directory (`examples/`)**:
+**Example Directory (`examples/`)**:
 
 **Command**:
 
 ```bash
 uv run llm-judge examples/vlm_generated --reference examples/human_ref/human_ref.jsonl --report-dir report
 ```
-
-**Example Data**:
-*Scenario*: "scenario_1"
-*Reference*: "drink water"
-*Model A*: "drink water"
-*Model B*: "eat meal"
 
 Judge will likely prefer Model A because it matches the reference action.
